@@ -41,6 +41,11 @@
             mkdir -p .git # force BUILD_FROM_GIT
             ./bootstrap --gnulib-srcdir=${gnulib-src} --no-git --skip-po
           '';
+
+          meta = {
+            homepage = "https://www.gnu.org/software/hello/";
+            description = "A program to show a familiar, friendly greeting";
+          };
         };
 
       };
