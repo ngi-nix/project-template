@@ -2,7 +2,7 @@
   description = "(insert short project description here)";
 
   # Nixpkgs / NixOS version to use.
-  inputs.nixpkgs.url = "nixpkgs/nixos-20.03";
+  inputs.nixpkgs.url = "nixpkgs/nixos-20.09";
 
   # Upstream source tree(s).
   inputs.hello-src = { url = git+https://git.savannah.gnu.org/git/hello.git; flake = false; };
